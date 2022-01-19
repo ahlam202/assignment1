@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="regretionOfEdge(failed)">
+    <parameter name="website" value="https://www.facbook.com/"/>
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="PeopleNtech.Automationtraining.Providing">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f" invocation-numbers="0 1 2"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- PeopleNtech.Automationtraining.Providing -->
+    </classes>
+  </test> <!-- regretionOfEdge(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
